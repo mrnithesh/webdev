@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  padding: 30px;
+  text-align: center;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.scheme {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.winner {
+  font-weight: bold;
+  color: green;
+  margin-top: 20px;
+}
