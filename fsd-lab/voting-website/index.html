@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Society Scheme Voting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Vote for Your Preferred Scheme</h1>
+
+    <div class="scheme" id="schemeA">
+      <h3>Scheme A: Free WiFi Zones</h3>
+      <button onclick="vote('A')">Vote</button>
+    </div>
+
+    <div class="scheme" id="schemeB">
+      <h3>Scheme B: Solar Street Lights</h3>
+      <button onclick="vote('B')">Vote</button>
+    </div>
+
+    <div class="scheme" id="schemeC">
+      <h3>Scheme C: Community Gym</h3>
+      <button onclick="vote('C')">Vote</button>
+    </div>
+
+    <h2>Voting Results</h2>
+    <p>Scheme A Votes: <span id="countA">0</span></p>
+    <p>Scheme B Votes: <span id="countB">0</span></p>
+    <p>Scheme C Votes: <span id="countC">0</span></p>
+
+    <p id="winner" class="winner"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
