@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Welcome from './Welcome';
+import Counter from './Counter';
 
 function App() {
   const name = "Nithesh";
@@ -17,6 +18,8 @@ function App() {
       <p>Today's date: {date}</p>
       <Welcome name="Sydney" age={25} />
       <Welcome name="Sweeeny" age={28} />
+      <p>Here is a counter example for state management</p>
+      <Counter />
     </div>
   );
 }
