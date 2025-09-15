@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Welcome from './Welcome';
 import Counter from './Counter';
+import Clock from './Clock';
 
 function App() {
   const name = "Nithesh";
@@ -20,6 +21,9 @@ function App() {
       <Welcome name="Sweeeny" age={28} />
       <p>Here is a counter example for state management</p>
       <Counter />
+
+      <p>Here is a live clock usign useEffect() hook</p>
+      <Clock/>
     </div>
   );
 }
